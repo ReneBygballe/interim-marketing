@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="da" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interim Marketing | Strategi & Eksekvering</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0f172a',  /* Mørkeblå (Slate-900) */
+                            green: '#14532d', /* Mørkegrøn */
+                            light: '#f8fafc', /* Næsten hvid baggrund */
+                            text: '#334155',  /* Mørkegrå tekst */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* Custom scrollbar for referencer */
+        .hide-scroll-bar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scroll-bar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-brand-light text-brand-text font-sans antialiased">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html" class="text-2xl font-bold tracking-tight text-brand-blue">
+                        Interim<span class="text-brand-green">Marketing</span>
+                    </a>
+                </div>
+               <div class="hidden md:flex items-center space-x-8">
+    <a href="#ydelser" class="text-gray-700 hover:text-brand-blue font-medium transition">Jeg tilbyder</a>
+    <a href="om-mig.html" class="text-gray-700 hover:text-brand-blue font-medium transition">Om mig</a>
+    
+    <a href="#kontakt" class="px-5 py-2.5 bg-brand-green text-white font-medium rounded hover:bg-green-800 transition shadow-lg">
+        Kontakt
+    </a>
+</div>
+            </div>
+        </div>
+    </nav>
+
+<section class="relative h-screen flex items-center justify-center overflow-hidden bg-brand-blue">
+        
+        <div class="absolute inset-0 z-0">
+            <img src="images/Rene-kodboel-bygballe-interim-marketing-2.jpg" 
+                 class="w-full h-full object-cover object-top opacity-40" 
+                 alt="René - Interim Marketing"
+                 onerror="this.src='imageimages.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop';">
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center mt-20 md:mt-0">
+            <h1 class="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                Interim Marketing
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-100 mb-10 font-light drop-shadow-md">
+                Fra strategi til implementering og eksekvering
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#ydelser" class="px-8 py-3 bg-white text-brand-blue font-bold rounded hover:bg-gray-100 transition shadow-lg">
+                    Se ydelser
+                </a>
+                <a href="#kontakt" class="px-8 py-3 border-2 border-white text-white font-bold rounded hover:bg-white/10 transition shadow-lg">
+                    Book en snak
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="ydelser" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-brand-blue">Kompetencer & Roller</h2>
+                <div class="w-16 h-1 bg-brand-green mx-auto mt-4 rounded"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-gray-50 rounded-lg hover:shadow-xl transition duration-300 border-t-4 border-brand-blue">
+                    <i data-lucide="briefcase" class="w-10 h-10 text-brand-blue mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">Interim CMO / Head of Team</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Strategisk ledelse i en overgangsperiode. Jeg overtager ansvaret for teamet, budgettet og strategien, så I bevarer momentum.
+                    </p>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-lg hover:shadow-xl transition duration-300 border-t-4 border-brand-green">
+                    <i data-lucide="bar-chart-3" class="w-10 h-10 text-brand-green mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">Interim Specialist</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Hands-on eksekvering. Jeg træder ind som specialist på e-mail marketing, paid social eller e-commerce optimering.
+                    </p>
+                </div>
+                <div class="p-8 bg-gray-50 rounded-lg hover:shadow-xl transition duration-300 border-t-4 border-gray-400">
+                    <i data-lucide="clock" class="w-10 h-10 text-gray-500 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-3 text-brand-blue">Freelance</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Timebaseret hjælp til spidsbelastninger eller specifikke projekter, hvor I har brug for ekstra hænder her og nu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-blue text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold">Samarbejdsmodeller</h2>
+                <p class="mt-4 text-gray-300">Vælg den struktur, der passer jeres behov bedst</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="bg-white/5 p-8 rounded-lg border border-white/10">
+                    <h3 class="text-2xl font-bold mb-4 text-brand-green">Interim (Fastpris)</h3>
+                    <p class="mb-6 text-gray-300">
+                        Den optimale løsning, når I mangler en nøglemedarbejder eller skal løfte et større projekt.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-brand-green mr-2"></i> Projekt- eller periodeafgrænset</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-brand-green mr-2"></i> Fast månedlig pris (ingen overraskelser)</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-brand-green mr-2"></i> Delt risiko og fuld transparens</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-brand-green mr-2"></i> 100% commitment til jeres team</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white/5 p-8 rounded-lg border border-white/10">
+                    <h3 class="text-2xl font-bold mb-4 text-gray-300">Freelance (Timebaseret)</h3>
+                    <p class="mb-6 text-gray-300">
+                        Fleksibilitet til mindre opgaver, løbende sparring eller når behovet varierer fra uge til uge.
+                    </p>
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-gray-400 mr-2"></i> Timebaseret afregning</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-gray-400 mr-2"></i> Fuld fleksibilitet</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-gray-400 mr-2"></i> Løbende sparring og opfølgning</li>
+                        <li class="flex items-center"><i data-lucide="check" class="w-5 h-5 text-gray-400 mr-2"></i> Betal kun for effektiv tid</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="cases" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-brand-blue mb-12">Udvalgte Cases</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded shadow-sm overflow-hidden hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 w-full flex items-center justify-center text-gray-400">
+                        <img src="images/Designa-koekken.webp" 
+                             class="w-full h-full object-cover" alt="Case 1">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase mb-2">Kampagnemanager og specialist • 3 år.</div>
+                        <h3 class="text-xl font-bold mb-2">Digital vækst i DK og NO</h3>
+                        <p class="text-gray-600 text-sm mb-4">Fuld håndtering af Designas digitale markedsføring i samarbejde med dygtige kollega fra Novicell. Kampagneleder og udførende specialist indefor Google Ads, SEO, SoMe annoncering, Content Creator og Webmaser.</p>
+                        <div class="border-t pt-4">
+                            <p class="font-bold text-brand-blue">Resultat (YoY 2021):</p>
+                            <p class="text-sm text-gray-600">+73% vækst i mødebookinger (DK)</p>
+                            <p class="text-sm text-gray-600">+17% vækst i mødebookinger (NO)</p>
+                            <p class="text-sm text-gray-600">+48% vækst i butiksomsætning (DK)</p>
+                            <p class="text-sm text-gray-600">+17% vækst i butiksomsætning (NO)</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded shadow-sm overflow-hidden hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 w-full flex items-center justify-center text-gray-400">
+                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop" 
+                             class="w-full h-full object-cover" alt="Case 2">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase mb-2">Projektledelse • 3 Mdr.</div>
+                        <h3 class="text-xl font-bold mb-2">Lancering af B2B Portal</h3>
+                        <p class="text-gray-600 text-sm mb-4">Projektledelse af nyt website. Kravspecifikation, bureau-styring og content produktion.</p>
+                        <div class="border-t pt-4">
+                            <p class="font-bold text-brand-blue">Resultat:</p>
+                            <p class="text-sm text-gray-600">Lanceret til tiden og under budget.</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="bg-white rounded shadow-sm overflow-hidden hover:shadow-md transition">
+                    <div class="h-48 bg-gray-200 w-full flex items-center justify-center text-gray-400">
+                        <img src="https://images.unsplash.com/photo-1553877607-4989f29a12a3?q=80&w=2670&auto=format&fit=crop" 
+                             class="w-full h-full object-cover" alt="Case 3">
+                    </div>
+                    <div class="p-6">
+                        <div class="text-xs font-bold text-brand-green uppercase mb-2">Interim Specialist • 4 Mdr.</div>
+                        <h3 class="text-xl font-bold mb-2">Marketing Automation</h3>
+                        <p class="text-gray-600 text-sm mb-4">Opsætning af flows og segmentering af kundedata for større retail-kæde.</p>
+                        <div class="border-t pt-4">
+                            <p class="font-bold text-brand-blue">Resultat:</p>
+                            <p class="text-sm text-gray-600">Fordobling af e-mail omsætning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="py-20 bg-white border-y border-gray-100 relative group">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <h2 class="text-3xl font-bold text-center text-brand-blue mb-12">Referencer fra kollegaer og samarbejdspartnere</h2>
+            
+            <div class="relative">
+                
+                <button onclick="document.getElementById('ref-container').scrollBy({left: -350, behavior: 'smooth'})" 
+                        class="absolute left-0 top-1/2 -translate-y-1/2 -ml-4 z-10 bg-white p-2 rounded-full shadow-lg border border-gray-100 text-brand-blue hover:bg-brand-blue hover:text-white transition hidden md:block">
+                    <i data-lucide="chevron-left" class="w-6 h-6"></i>
+                </button>
+
+                <div id="ref-container" class="flex overflow-x-auto hide-scroll-bar pb-8 gap-6 snap-x scroll-smooth">
+                    
+                    <div class="snap-center shrink-0 w-80 md:w-[32%] p-8 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 overflow-hidden">
+                                <img src="images/Soeren-Brock.jpeg" class="w-full h-full object-cover" alt="Kunde">
+                            </div>
+                            <div>
+                                <p class="font-bold text-brand-blue">Søren Brock</p>
+                                <p class="text-xs text-gray-500">Head of Dupal & Quality and Operations, Novicell</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"René er typen, der altid giver lidt ekstra af sig selv - både for kolleger, samarbejdspartnere og organisationen som helhed. Han går forrest, han motiverer, og han får folk med sig på en måde, der føles både naturlig og ægte."</p>
+                    </div>
+
+                    <div class="snap-center shrink-0 w-80 md:w-[32%] p-8 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 overflow-hidden">
+                                <img src="images/louise-Lyngsoe-kjaerulff.jpeg" class="w-full h-full object-cover" alt="Kunde">
+                            </div>
+                            <div>
+                                <p class="font-bold text-brand-blue">Louise Lyngsø Kjærulff</p>
+                                <p class="text-xs text-gray-500">Marketingchef, HUSET Middelfart</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"Der er ingen tvivl om, at René er en stærk spiller inden for digital markedsføring. Han har en dyb viden på området og holder sig konstant opdateret inden for alle dele af digital markedsføring"</p>
+                    </div>
+
+                    <div class="snap-center shrink-0 w-80 md:w-[32%] p-8 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 overflow-hidden">
+                                <img src="images/claus-bruun-rasmussen-business-broker.jpeg" class="w-full h-full object-cover" alt="Kunde">
+                            </div>
+                            <div>
+                                <p class="font-bold text-brand-blue">Claus Bruun Rasmussen</p>
+                                <p class="text-xs text-gray-500">Partner, Business Broker</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"Business Broker A/S har indgået aftale med Novicell med René som opgaveansvarlig på optimering af vores Google Ads markedsføring. René har på kort tid forstået vores univers af komplekse rådgivningsydelser til ejere af mellemstore virksomheder. Vi får derfor skræddersyede løsninger, der matcher vores ønsker og behov. God kemi og højt enerigniveau hos René har skabt et godt samarbejde."</p>
+                    </div>
+
+                    <div class="snap-center shrink-0 w-80 md:w-[32%] p-8 bg-gray-50 rounded-xl border border-gray-100">
+                        <div class="flex items-center mb-4">
+                            <div class="w-12 h-12 bg-gray-300 rounded-full mr-4 overflow-hidden">
+                                <img src="images/Mads-SEO-specialist-novicell.jpeg" class="w-full h-full object-cover" alt="Kunde">
+                            </div>
+                            <div>
+                                <p class="font-bold text-brand-blue">Mads Agergaard</p>
+                                <p class="text-xs text-gray-500">SEO specialist, Novicell</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 italic">"Leder og kollega med et højt smittende humør og drive. Han går forrest og som leder inspirerer og motiverer han og får alle med. Leder med et perspektiv og stort fokus på at skabe gode processer frem mod et mål. Fremfor alene at fokusere på målet. Det har jeg lært meget af.  "</p>
+                    </div>
+
+                </div>
+
+                <button onclick="document.getElementById('ref-container').scrollBy({left: 350, behavior: 'smooth'})" 
+                        class="absolute right-0 top-1/2 -translate-y-1/2 -mr-4 z-10 bg-white p-2 rounded-full shadow-lg border border-gray-100 text-brand-blue hover:bg-brand-blue hover:text-white transition hidden md:block">
+                    <i data-lucide="chevron-right" class="w-6 h-6"></i>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="om-mig" class="py-20 bg-gray-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="w-full md:w-1/3">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-brand-green transform translate-x-3 translate-y-3 rounded-lg"></div>
+                        <img src="https://lh3.googleusercontent.com/d/1fh-daqEkFcCRRbQv3yQMAzN9SrywlZGO" 
+                             class="relative rounded-lg shadow-lg w-full object-cover aspect-[4/5]" 
+                             alt="Portræt af René"
+                             onerror="this.src='https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop';">
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-2/3">
+                    <h2 class="text-3xl font-bold text-brand-blue mb-6">Hvem er René Bygballe?</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Fagligt:<br>Jeg arbejder i krydsfeltet mellem strategi og eksekvering med fokus på kommerciel vækst, marketing og digitalisering. 
+
+                        Jeg brænder for at udvikle brands, træffe datadrevne beslutninger og skabe digitale løsninger, der kan skalere og gøre en reel forskel for både forretningen og omverdenen.
+
+                    </p>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Med +15 års erfaring i at drive og skabe kommerciel vækst for både BtB, BtC og DtC brands, har jeg opbygget et solidt fagligt fundament. Særligt inden for forretningsudvikling, projektledelse og performance marketing (SEO, Google Ads, Social Ads, Email Marketing, Marketing Automation, SoMe, Content Creation).
+                    </p>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Ledelse:<br>Jeg tror på, at mennesker er fundamentet for at skabe resultater. Når vi trives og motiveres i arbejdet, præsterer vi vores bedste. Det er her, de stærkeste resultater opstår.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Det kræver et arbejdsmiljø, hvor mennesket, teamet og samarbejdet er i fokus. Et arbejdsmiljø præget af læring, nysgerrighed, åbenhed og fælles ansvar. Udvikling og resultater gennem mennesker er derfor omdrejningspunktet i mit ledelsesperspektiv.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Et ensidigt fokus på økonomiske resultater skaber ikke god ledelse, men god ledelse skaber ofte både stærke resultater og indfrielse af virksomhedens mål. Den kausalitet er grundlaget for min tilgang til ledelse.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Som leder beskrives jeg som passioneret, energisk, inspirerende, loyal, tydelig i kommunikation og omsorgsfuld.
+                    
+                        <div class="grid grid-cols-2 gap-4 text-sm font-bold text-brand-blue">
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> 15+ års digital erfaring</span>
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> Ledelse og specialist</span>
+    
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> Strategisk og kommercielt mindset</span>
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> Skaber resultater via mennesker</span>
+    
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> Datadrevet og stærk i eksekvering</span>
+    <span class="flex items-center"><i data-lucide="check-circle" class="w-4 h-4 text-brand-green mr-2"></i> Tydelig & empatisk ledelse</span>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontakt" class="py-20 bg-brand-blue text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-4">Book et gratis og uforpligtende strategikald?</h2>
+            <p class="text-gray-300 mb-10">Vi tager udgangspunkt i jeres situation. Fortæl omkring jeres forretning, behov og ambitioner. Sammen drøfter vi muligheder, forventninger og rammer for et samarbejde. Udfyld formularen, så vender jeg tilbage inden for 24 timer.</p>
+            
+            <div class="bg-white text-left p-8 rounded-lg shadow-2xl max-w-lg mx-auto">
+               <form onsubmit="event.preventDefault(); document.getElementById('success-msg').classList.remove('hidden');" class="space-y-4">
+    
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Navn*</label>
+        <input type="text" name="navn" required 
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-blue focus:border-brand-blue text-gray-900">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">E-mail*</label>
+        <input type="email" name="email" required 
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-blue focus:border-brand-blue text-gray-900">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Telefon</label>
+        <input type="tel" name="telefon" 
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-blue focus:border-brand-blue text-gray-900">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Virksomhedsnavn</label>
+        <input type="text" name="virksomhed" 
+               class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-blue focus:border-brand-blue text-gray-900">
+    </div>
+
+    <div>
+        <label class="block text-sm font-medium text-gray-700 mb-1">Besked</label>
+        <textarea name="besked" required rows="4" 
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-brand-blue focus:border-brand-blue text-gray-900"></textarea>
+    </div>
+
+    <button type="submit" class="w-full bg-brand-green text-white font-bold py-3 rounded hover:bg-green-800 transition">
+        ➜ Book en snak
+    </button>
+</form>
+                
+                <div id="success-msg" class="hidden mt-4 p-4 bg-green-50 text-green-700 border border-green-200 rounded text-center">
+                    Tak for din besked! Jeg vender tilbage hurtigst muligt.
+                </div>
+            </div>
+
+            <div class="mt-12 flex justify-center space-x-8">
+                <a href="mailto:kontakt@interimmarketing.dk" class="flex items-center text-gray-300 hover:text-white transition">
+                    <i data-lucide="mail" class="w-6 h-6 mr-2"></i> kontakt@interimmarketing.dk
+                </a>
+                <a href="https://www.linkedin.com/in/renebygballe/" target="_blank" class="flex items-center text-gray-300 hover:text-white transition">
+                    <i data-lucide="linkedin" class="w-6 h-6 mr-2"></i> LinkedIn Profil
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-500 py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2024 Interim Marketing. CVR: [Dit CVR]. Alle rettigheder forbeholdes.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
