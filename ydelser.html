@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="da" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interim Marketing | Strategi & Eksekvering</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0f172a',  /* Mørkeblå (Slate-900) */
+                            green: '#14532d', /* Mørkegrøn */
+                            light: '#f8fafc', /* Næsten hvid baggrund */
+                            text: '#334155',  /* Mørkegrå tekst */
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Helvetica', 'Arial', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* Custom scrollbar for referencer */
+        .hide-scroll-bar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scroll-bar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-brand-light text-brand-text font-sans antialiased">
+
+    <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-sm border-b border-gray-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+    <a href="index.html">
+        <img src="images/logo.svg" alt="Interim Marketing" class="h-14 w-auto">
+    </a>
+</div>
+               <div class="hidden md:flex items-center space-x-8">
+    <a href="ydelser.html" class="text-gray-700 hover:text-brand-blue font-medium transition">Jeg tilbyder</a>
+    <a href="om-mig.html" class="text-gray-700 hover:text-brand-blue font-medium transition">Om mig</a>
+    
+    <a href="#kontakt" class="px-5 py-2.5 bg-brand-green text-white font-medium rounded hover:bg-green-800 transition shadow-lg">
+        Kontakt
+    </a>
+</div>
+            </div>
+        </div>
+    </nav>
+
+<section class="relative h-96 flex items-center justify-center overflow-hidden bg-brand-blue">
+        <div class="absolute inset-0 z-0">
+            <img src="images/hero-ydelser.jpg" 
+                 class="w-full h-full object-cover opacity-20" 
+                 alt="Interim Marketing Services"
+                 onerror="this.src='https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop';">
+        </div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
+                Fleksible marketingressourcer
+            </h1>
+            
+            <a href="index.html#kontakt" class="inline-block px-8 py-3 text-base font-medium text-white bg-transparent border-2 border-white rounded hover:bg-white hover:text-brand-blue transition duration-300 md:py-4 md:text-lg md:px-10">
+                Book en snak
+            </a>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-brand-blue mb-6">Det jeg tilbyder</h2>
+            <div class="w-20 h-1 bg-brand-green mx-auto mb-8 rounded"></div>
+            <p class="text-xl text-gray-600 mb-4 leading-relaxed">
+                Fra ledelse, strategi til hands on eksekvering og opfølgning. Har jeres organisation eller marketingteam brug for sparring, ekstra hænder og kompetencer?
+            </p>
+             <p class="text-xl text-gray-600 mb-4 leading-relaxed">
+                Uanset om i mangler en strategisk leder til at sætte retningen, eller en specialist til at foretage medieindkøb, håndtere marketing- og kampagnebudgetter og/eller eksekvere på kanaler, så kan en interim marketing leder eller et freelance samarbejder være løsningen.
+            </p>
+            <p class="text-xl text-gray-600 mb-4 leading-relaxed">
+                Jeg hjælper danske virksomheder med at skabe stabilitet og kommerciel vækst og styrke konkurrenceevne. Herunder kan du læse mere om de tre primære måder, som vi kan samarbejde på.
+            </p>
+            
+        </div>
+    </section>
+
+    <section id="interim" class="py-20 bg-gray-50 border-y border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                
+                <div class="w-full md:w-1/2">
+                    <div class="rounded-xl overflow-hidden shadow-lg h-80 md:h-[500px]">
+                        <img src="images/service-interim.jpg" 
+                             class="w-full h-full object-cover" 
+                             alt="Interim Management"
+                             onerror="this.src='https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2670&auto=format&fit=crop';">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <div class="flex items-center mb-6 group">
+    <div class="w-14 h-14 bg-white rounded-lg shadow-sm flex items-center justify-center mr-5 text-brand-blue group-hover:text-white group-hover:bg-brand-blue transition duration-300 border border-gray-100">
+        <i data-lucide="briefcase" class="w-7 h-7"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-brand-blue">Interim Marketing Manager</h2>
+</div>
+                    
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Står i uden marketingleder på grund af opsigelse, sygdom eller barsel? Jeg træder ind fra dag ét og sikrer, at afdelingen ikke går i stå.
+                        <br><br>
+                        Som Interim Manager tager jeg det fulde ansvar for budgetter, personale og strategi. Jeg sikrer ro på bagsmækken, så direktionen kan fokusere på forretningen, mens vi finder den permanente løsning – eller mens jeg styrer skibet sikkert i havn.
+                    </p>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Strategisk sparring med direktionen
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Personaleledelse og teamudvikling
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Budgetstyring og rapportering
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="specialist" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                
+                <div class="w-full md:w-1/2">
+                    <div class="rounded-xl overflow-hidden shadow-lg h-80 md:h-[500px]">
+                        <img src="images/service-specialist.jpg" 
+                             class="w-full h-full object-cover" 
+                             alt="Marketing Specialist"
+                             onerror="this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2670&auto=format&fit=crop';">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <div class="flex items-center mb-6 group">
+    <div class="w-14 h-14 bg-white rounded-lg shadow-sm flex items-center justify-center mr-5 text-brand-green group-hover:text-white group-hover:bg-brand-green transition duration-300 border border-gray-100">
+        <i data-lucide="bar-chart-3" class="w-7 h-7"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-brand-blue">Marketing Specialist</h2>
+</div>
+                    
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Har i brug for dyb faglighed på en specifik kanal? Jeg er ikke kun leder; jeg er også håndværker. 
+                        <br><br>
+                        Med +15 års erfaring har jeg arbejdet hands-on med de fleste digitale discipliner. Jeg kan gå direkte ind i jeres annoncekonti, jeres CMS eller jeres e-mailsystem og optimere performance. Det er "plug-and-play" specialistviden.
+                    </p>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Google Ads & Paid Social (Meta/LinkedIn)
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            SEO & Webshop optimering
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            E-mail automation flows
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="freelance" class="py-20 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                
+                <div class="w-full md:w-1/2">
+                    <div class="rounded-xl overflow-hidden shadow-lg h-80 md:h-[500px]">
+                        <img src="images/service-freelance.jpg" 
+                             class="w-full h-full object-cover" 
+                             alt="Freelance Projekter"
+                             onerror="this.src='https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2670&auto=format&fit=crop';">
+                    </div>
+                </div>
+
+                <div class="w-full md:w-1/2">
+                    <div class="flex items-center mb-6 group">
+    <div class="w-14 h-14 bg-white rounded-lg shadow-sm flex items-center justify-center mr-5 text-brand-blue group-hover:text-white group-hover:bg-gray-600 transition duration-300 border border-gray-100">
+        <i data-lucide="clock" class="w-7 h-7"></i>
+    </div>
+    <h2 class="text-3xl font-bold text-brand-blue">Freelance & Projekter</h2>
+</div>
+                    
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Står i overfor en stor lancering, et nyt website eller en spidsbelastning? Freelance-modellen giver jer maksimal fleksibilitet.
+                        <br><br>
+                        Her køber i min tid og kompetencer til en afgrænset opgave. Det er den perfekte løsning, når i har brug for eksekvering her og nu, uden at binde jer til faste omkostninger.
+                    </p>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Projektledelse af nye websites
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Klargøring til Black Friday / Sæson
+                        </li>
+                        <li class="flex items-center text-gray-700">
+                            <i data-lucide="check-circle" class="w-5 h-5 text-brand-green mr-3"></i>
+                            Ad hoc sparring og drift
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-brand-blue text-white text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6">Er du i tvivl om, hvad I har brug for?</h2>
+            <p class="text-xl text-gray-300 mb-8">
+                Det koster ikke noget at spørge. Lad os tage en uforpligtende snak om jeres situation.
+            </p>
+            <a href="index.html#kontakt" class="inline-block px-8 py-4 bg-brand-green text-white font-bold rounded hover:bg-green-800 transition shadow-lg">
+                Kontakt mig her
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-slate-500 py-8 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2024 Interim Marketing. CVR: [Dit CVR]. Alle rettigheder forbeholdes.</p>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
